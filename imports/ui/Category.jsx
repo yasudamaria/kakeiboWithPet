@@ -291,7 +291,7 @@ export const Category = () => {
                         </div>
 
                         <div class="smoll_category row">
-                            <div class="col">👏
+                            <div class="col">
                                 <p>🏥医療費</p>
                             </div>
                             <div class="col">
@@ -311,6 +311,378 @@ export const Category = () => {
                     </div>
                 </div>
 
+                {/* 水道光熱費 */}
+                <div class="category">
+                    <div class="big_category row">
+                        <div class="col">
+                            <h5>☀水道・光熱費</h5>
+                        </div>
+                        <div class="col">
+                            <h5>10000円</h5>
+                        </div>
+                    </div>
+
+                    <div class="smoll_category_container">
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>💡電気代</p>
+                            </div>
+                            <div class="col">
+                                <p>5000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>🔥ガス・灯油代</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>💧水道代</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                {/* 教育 */}
+                <div class="category">
+                    <div class="big_category row">
+                        <div class="col">
+                            <h5>✏教育費</h5>
+                        </div>
+                        <div class="col">
+                            <h5>10000円</h5>
+                        </div>
+                    </div>
+
+                    <div class="smoll_category_container">
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>🏫学費</p>
+                            </div>
+                            <div class="col">
+                                <p>5000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>📖書籍</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>💰奨学金</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                {/* 住宅 */}
+                <div class="category">
+                    <div class="big_category row">
+                        <div class="col">
+                            <h5>🏠住宅</h5>
+                        </div>
+                        <div class="col">
+                            <h5>10000円</h5>
+                        </div>
+                    </div>
+
+                    <div class="smoll_category_container">
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>🏢家賃</p>
+                            </div>
+                            <div class="col">
+                                <p>5000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>💴住宅ローン</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>💶積立金</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                {/* 通信費*/}
+                <div class="category">
+                    <div class="big_category row">
+                        <div class="col">
+                            <h5>📻通信費</h5>
+                        </div>
+                        <div class="col">
+                            <h5>10000円</h5>
+                        </div>
+                    </div>
+
+                    <div class="smoll_category_container">
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>☎電話</p>
+                            </div>
+                            <div class="col">
+                                <p>5000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>🌐インターネット</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>🧳宅配便</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                {/* 税金*/}
+                <div class="category">
+                    <div class="big_category row">
+                        <div class="col">
+                            <h5>💰税金・社会保障</h5>
+                        </div>
+                        <div class="col">
+                            <h5>10000円</h5>
+                        </div>
+                    </div>
+
+                    <div class="smoll_category_container">
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>所得税</p>
+                            </div>
+                            <div class="col">
+                                <p>5000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>住民税</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>年金保険料</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>健康保険料</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>その他税金</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>    
+                
+                {/* 保険*/}
+                 <div class="category">
+                    <div class="big_category row">
+                        <div class="col">
+                            <h5>保険</h5>
+                        </div>
+                        <div class="col">
+                            <h5>10000円</h5>
+                        </div>
+                    </div>
+
+                    <div class="smoll_category_container">
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>生命保険</p>
+                            </div>
+                            <div class="col">
+                                <p>5000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>医療保険</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>火災保険・地震保険</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>その他保険</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                {/* 特別な支出*/}
+                 <div class="category">
+                    <div class="big_category row">
+                        <div class="col">
+                            <h5>特別な支出</h5>
+                        </div>
+                        <div class="col">
+                            <h5>10000円</h5>
+                        </div>
+                    </div>
+
+                    <div class="smoll_category_container">
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>家具家電</p>
+                            </div>
+                            <div class="col">
+                                <p>5000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>住宅・リフォーム</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>その他特別な支出</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                 {/* その他*/}
+                 <div class="category">
+                    <div class="big_category row">
+                        <div class="col">
+                            <h5>その他</h5>
+                        </div>
+                        <div class="col">
+                            <h5>10000円</h5>
+                        </div>
+                    </div>
+
+                    <div class="smoll_category_container">
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>仕送り</p>
+                            </div>
+                            <div class="col">
+                                <p>5000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>経費</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>雑費</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                        <div class="smoll_category row">
+                            <div class="col">
+                                <p>その他</p>
+                            </div>
+                            <div class="col">
+                                <p>2000円</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                            
             </div>
         </div>
     );
