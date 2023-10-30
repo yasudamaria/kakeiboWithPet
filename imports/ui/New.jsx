@@ -65,6 +65,52 @@ export const New = () => {
                             <button type="submit">保存</button>
                         </div>
                     </div>
+
+                    {/* 支出用入力欄 */}
+                    <div class="container" id="expenditure_container">
+                        <div class="row">
+                            <div class="col">
+                                <p>￥</p>
+                            </div>
+                            <div class="col">
+                                <input type="number" name="cost" id="cost" min="0" required/>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <select name="category" id="category">
+                                    <option value="food">🍖食費</option>
+                                    <option value="commodity">🧻日用品</option>
+                                    <option value="hobby">🌟趣味</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                📅
+                            </div>
+                            <div class="col">
+                                <input type="date" name="date" id="date" value={today} required/>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                📄
+                            </div>
+
+                            <div class="col">
+                                <input type="text" name="detail" id="detail" placeholder="内容の入力"/>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
